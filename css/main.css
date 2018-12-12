@@ -16,3 +16,9 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+header {
+  background-color: #18294f;
+  padding: .3em 0 .5em;
+  color: #fff;
+}

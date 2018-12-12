@@ -99,3 +99,33 @@ nav a:visited {
     text-align: center;
   }
 }
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    line-height: 1.5;
+    font-size: 120%;
+  }
+
+  header {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav {
+    width: 60%;
+    }
+
+  nav a {
+    padding: 0;
+  }
+
+  header h1 {
+    padding: 0 .75rem;
+    margin: 0;
+    text-align: left;
+  }
+}
+
+@

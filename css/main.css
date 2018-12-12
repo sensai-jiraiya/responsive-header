@@ -1,5 +1,5 @@
 @-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport {width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
@@ -70,10 +70,11 @@ nav a:visited {
 
 @media only screen and (min-width: 25em) {
 
-  nav li{
+  nav li {
     width: 50%;
     text-align: center;
   }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -88,13 +89,14 @@ nav a:visited {
   }
 
   nav a {
-    padding: 0.75rem;
+    padding: 0 .75rem;
   }
 
   nav li {
     width: 25%;
     text-align: center;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -112,7 +114,7 @@ nav a:visited {
 
   nav {
     width: 60%;
-    }
+  }
 
   nav a {
     padding: 0;
@@ -123,9 +125,11 @@ nav a:visited {
     margin: 0;
     text-align: left;
   }
+
 }
 
 @media only screen and (min-width: 90em) {
+
   html {
     font-size: 130%;
   }
@@ -133,4 +137,5 @@ nav a:visited {
   nav {
     width: 40%;
   }
+
 }

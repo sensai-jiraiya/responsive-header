@@ -43,3 +43,30 @@ nav ul {
   flex-wrap: wrap;
   font-size: 1.125rem;
 }
+
+nav li {
+  width: 100%;
+}
+
+nav a {
+  display: block;
+  padding: .5em .75em;
+  white-space: nowrap;
+}
+
+nav a:hover {
+  background-color: #6c8fe0;
+  color: #fff;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: Ubuntu, sans-serif;
+  color: #6c8fe0;
+}
+
+nav a:visited {
+  font-family: Ubuntu, sans-serif;
+  text-decoration: none;
+  color: #6c8fe0;
+}

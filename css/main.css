@@ -22,3 +22,24 @@ header {
   padding: .3em 0 .5em;
   color: #fff;
 }
+
+body {
+  margin: 0;
+}
+
+header h1 {
+  font-family: Ubuntu, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 0 1.3rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.125rem;
+}

@@ -70,3 +70,32 @@ nav a:visited {
   text-decoration: none;
   color: #6c8fe0;
 }
+
+@media only screen and (min-width: 25em) {
+
+  nav li{
+    width: 50%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  header h1 {
+    margin: 0 0 1.4rem;
+  }
+
+  nav a {
+    padding: 0.75rem;
+  }
+
+  nav li {
+    width: 25%;
+    text-align: center;
+  }
+}
